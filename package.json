@@ -1,0 +1,22 @@
+{
+  "name": "automation-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmAlSi1057/Automation-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmAlSi1057/Automation-Project/issues"
+  },
+  "homepage": "https://github.com/AmAlSi1057/Automation-Project#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.13"
+  }
+}
