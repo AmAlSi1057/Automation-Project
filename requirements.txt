@@ -1,8 +1,8 @@
 pytest
 pytest-playwright
+pytest-html
 node
 playwright
 docker
 json
 pandas
-pathlib
