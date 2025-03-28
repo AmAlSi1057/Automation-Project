@@ -8,13 +8,13 @@ class form:
         self.page.goto("https://www.arpeely.com/contact")
 
     def empty_submit(self):
-        self.page.click('button[type="submit"]')
+        self.page.click('button[aria-label="Submit"]')
 
     def fill_and_submit(self, name, message, email):
         self.page.fill('input[name="name"]', name)
         self.page.fill('id="textarea_comp-kzzez81j""]', message)
         self.page.fill('input[name="email"]', email)
-        self.page.click('button[type="submit"]')
+        self.page.click('button[aria-label="Submit"]')
 
     def fill_and_submit_noemail(self, name, message):
         self.page.fill('input[name="name"]', name)
