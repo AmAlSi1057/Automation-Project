@@ -1,0 +1,8 @@
+pytest
+pytest-playwright
+node
+playwright
+docker
+json
+pandas
+pathlib
